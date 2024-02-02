@@ -4,7 +4,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-interns/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/VuePagesProject/' : '/',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: false,
