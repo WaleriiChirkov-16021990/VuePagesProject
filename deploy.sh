@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+git push -f git@github.com:WaleriiChirkov-16021990/WaleriiChirkov-16021990.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
- git push -f git@https://github.com/WaleriiChirkov-16021990/VuePagesProject.git master:gh-pages
+ git push -f git@github.com/WaleriiChirkov-16021990/VuePagesProject.git master:gh-pages
 
 cd -
